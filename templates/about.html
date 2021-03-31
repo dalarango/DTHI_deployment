@@ -1,0 +1,122 @@
+{% extends "base.html" %}
+{% block content %}
+{% load static %}
+<br>
+<h1>Acerca de nosotros</h1>
+<br>
+<br>
+<p>Somos dos ingenieros egresados de la Universidad Nacional de Colombia,
+  que buscamos dar solución a problemas relacionados con la gran brecha existente entre el tema tecnológico y humano.
+  Nos basamos en dos principios fundamentales:</p>
+<br>
+<p>Sin digitalización no hay tecnología</p>
+<p>Sin humanos no hay innovación</p>
+<br>
+<p>Cuidamos del ser como insumo principal para cada proceso, y nos inspiramos en el, para poder hacer de cada proceso, el mejor.</p>
+<br>
+
+<table>
+  <tr>
+    <td><img class="profile-pic" src="{% static 'images/profile_pics/Karla_pic_02.png' %}" align="left" valign="left" vspace="5" hspace="15"/></td>
+    <td><h2>Karla Cristina Valderrama Vélez (CEO)</h2>
+    <p>Ingeniera Administradora (UNAL), Master en Administración de negocios (Universidad Latina de Panamá).
+    Cuenta con más de 7 años de experiencia en roles directivos, administrativos, financieros y de optimización de recursos.
+    Ha trabajado como gerente general en múltiples sectores tales como Energía, Entretenimiento y Servicios.
+    Su enfoque dentro de las compañías en las cuales ha trabajado, ha sido el empoderamiento y liderazgo de las personas,
+    logrando la estructuración eficiente y efectiva, apuntando al rendimiento operativo y financiero como objetivo principal para el crecimiento exponencial de las utilidades.
+    Actualmente reside en Colombia y trabaja como Gerente General en la empresa 36 Grados, compañía líder en producciones audiovisuales en dicho país.
+    Adicionalmente, Karla ejerce como Performance Coach dentro de esta compañía, logrando mantener al equipo directivo operando en el más alto nivel de desempeño.</p><a href="https://www.linkedin.com/in/karlavalderramavelez/">Perfil en LinkenIn</a></td>
+    <br>
+  </tr>
+  <tr>
+    <td><img class="profile-pic" src="{% static 'images/profile_pics/David_pic_03.png' %}" align="left" valign="middle" vspace="5" hspace="15"/></td>
+    <td>
+      <br>
+      <br>
+      <br>
+      <h2>David Lara Arango (CTO)</h2>
+      <p>Ingeniero Administrador (UNAL), Master en Ingeniería de Sistemas (UNAL) y Doctor (Ph.D) en Ingeniería de Sistemas y Teoría de Juegos Computacional (Universidad de Bergen, Noruega).
+      Cuenta con más de 8 años de experiencia en roles de analítica de datos, ciencia de datos, inteligencia artificial, minería e ingeniería de datos tanto en la academia como en el sector real.
+      Ha trabajado como consultor en múltiples sectores tales como Seguros, Energía, Telecomunicaciones, Banca, Transporte Marítimo, Pesqueras, Comunicaciones entre otros.
+      Es autor de diversas publicaciones científicas y ha presentado su trabajo en varias conferencias internacionales de alto nivel. Actualmente reside en Noruega y trabaja como Científico de Datos Principal en Fjordkraft AS,
+      compañía líder en suministro de electricidad y telecomunicaciones en dicho país. Allí lidera diversos proyectos que buscan fortalecer la creación de valor de dicha compañía hacia sus clientes en el mercado de los países nórdicos.
+      Adicionalmente, David ejerce como Mentor Asociado en las áreas de ciencia de datos, analítica e ingeniería en inteligencia artificial para la compañía Springboard Corp; empresa estadounidense y partner corporativo de Microsoft,
+      dedicada a la formación de profesionales en estas y otras áreas relacionadas con el sector tecnológico.</p><a href="https://www.linkedin.com/in/david-lara-arango-422a78ba">Perfil en LinkenIn</a></td>
+  </tr>
+</table>
+
+
+
+<!--
+<div class="container">
+  <p><img src="{% static 'images/Karla_pic.png' %}" align="left" valign="middle" vspace="5" hspace="15"/>Ingeniera Administradora (UNAL), Master en Administración de negocios (Universidad Latina de Panamá).
+  Cuenta con más de 7 años de experiencia en roles directivos, administrativos, financieros y de optimización de recursos.
+  Ha trabajado como gerente general en múltiples sectores tales como Energía, Entretenimiento y Servicios.
+  Su enfoque dentro de las compañías en las cuales ha trabajado, ha sido el empoderamiento y liderazgo de las personas,
+  logrando la estructuración eficiente y efectiva, apuntando al rendimiento operativo y financiero como objetivo principal para el crecimiento exponencial de las utilidades.
+  Actualmente reside en Colombia y trabaja como Gerente General en la empresa 36 Grados, compañía líder en producciones audivisuales en dicho país.
+  Adicionalmente, Karla ejerce como Performance Coach dentro de esta compañía, logrando mantener al equipo directivo operando en el más alto nivel de desempeño.</p>
+  <a href="https://www.linkedin.com/in/karlavalderramavelez/">Perfil en LinkenIn</a>
+</div>
+<br>
+<div class="container">
+  <p><img src="{% static 'images/David_pic.png' %}" align="left" valign="middle" vspace="5" hspace="15"/>Ingeniero Administrador (UNAL), Master en Ingeniería de Sistemas (UNAL) y Doctor/Ph.D en Ingeniería de Sistemas y Teoría de Juegos Computacional (Universidad de Bergen, Noruega).
+    Cuenta con más de 8 años de experiencia en roles de analítica de datos, ciencia de datos, inteligencia artificial, minería e ingeniería de datos tanto en la academia como en el sector real.
+    Ha trabajado como consultor en múltiples sectores tales como Seguros, Energía, Telecomunicaciones, Banca, Transporte Marítimo, Pesqueras, Comunicaciones entre otros.
+    Es autor de diversas publicaciones científicas y ha presentado su trabajo en varias conferencias internacionales de alto nivel. Actualmente reside en Noruega y trabaja como Científico de Datos Principal en Fjordkraft AS,
+    compañía líder en suministro de electricidad y telecomunicaciones en dicho país. Allí lidera diversos proyectos que buscan fortalecer la creación de valor de dicha compañía hacia sus clientes en el mercado de los países nórdicos.
+    Adicionalmente, David ejerce como Mentor Asociado en las áreas de ciencia de datos, analítica e ingeniería en inteligencia artificial para la compañía Springboard Corp; empresa estadounidense y partner corporativo de Microsoft,
+    dedicada a la formación de profesionales en estas y otras áreas relacionadas con el sector tecnológico. </p>
+  <a href="https://www.linkedin.com/in/david-lara-arango-422a78ba">Perfil en LinkenIn</a>
+</div>
+<br>
+
+<div id='container'>
+ <img src="{% static 'images/Karla_pic.png' %}" style='float: left;'/>
+ <p>Ingeniera Administradora (UNAL), Master en Administración de negocios (Universidad Latina de Panamá).
+ Cuenta con más de 7 años de experiencia en roles directivos, administrativos, financieros y de optimización de recursos.
+ Ha trabajado como gerente general en múltiples sectores tales como Energía, Entretenimiento y Servicios.
+ Su enfoque dentro de las compañías en las cuales ha trabajado, ha sido el empoderamiento y liderazgo de las personas,
+ logrando la estructuración eficiente y efectiva, apuntando al rendimiento operativo y financiero como objetivo principal para el crecimiento exponencial de las utilidades.
+ Actualmente reside en Colombia y trabaja como Gerente General en la empresa 36 Grados, compañía líder en producciones audivisuales en dicho país.
+ Adicionalmente, Karla ejerce como Performance Coach dentro de esta compañía, logrando mantener al equipo directivo operando en el más alto nivel de desempeño</p>
+</div>
+
+
+<div class="row">
+  <div class="column">
+    <p>CEO: Karla Valderrama Velez </p>
+    <img src="{% static 'images/Karla_pic.png' %}" alt="">
+  </div>
+  <div class="column">
+    <p>Ingeniera Administradora (UNAL), Master en Administración de negocios (Universidad Latina de Panamá).
+    Cuenta con más de 7 años de experiencia en roles directivos, administrativos, financieros y de optimización de recursos.
+    Ha trabajado como gerente general en múltiples sectores tales como Energía, Entretenimiento y Servicios.
+    Su enfoque dentro de las compañías en las cuales ha trabajado, ha sido el empoderamiento y liderazgo de las personas,
+    logrando la estructuración eficiente y efectiva, apuntando al rendimiento operativo y financiero como objetivo principal para el crecimiento exponencial de las utilidades.
+    Actualmente reside en Colombia y trabaja como Gerente General en la empresa 36 Grados, compañía líder en producciones audivisuales en dicho país.
+    Adicionalmente, Karla ejerce como Performance Coach dentro de esta compañía, logrando mantener al equipo directivo operando en el más alto nivel de desempeño</p>
+  </div>
+  <a href="https://www.linkedin.com/in/karlavalderramavelez/">Perfil en LinkenIn</a>
+</div>
+
+<div class="">
+  <div class="column">
+    <p>CTO: David Lara Arango </p>
+    <img src="{% static 'images/David_pic.png' %}" alt="">
+  </div>
+  <div class="column">
+      <p>Ingeniero Administrador (UNAL), Master en Ingeniería de Sistemas (UNAL) y Doctor/Ph.D en Ingeniería de Sistemas y Teoría de Juegos Computacional (Universidad de Bergen, Noruega).
+        Cuenta con más de 8 años de experiencia en roles de analítica de datos, ciencia de datos, inteligencia artificial, minería e ingeniería de datos tanto en la academia como en el sector real.
+        Ha trabajado como consultor en múltiples sectores tales como Seguros, Energía, Telecomunicaciones, Banca, Transporte Marítimo, Pesqueras, Comunicaciones entre otros.
+        Es autor de diversas publicaciones científicas y ha presentado su trabajo en varias conferencias internacionales de alto nivel. Actualmente reside en Noruega y trabaja como Científico de Datos Principal en Fjordkraft AS,
+        compañía líder en suministro de electricidad y telecomunicaciones en dicho país.
+        Allí lidera diversos proyectos que buscan fortalecer la creación de valor de dicha compañía hacia sus clientes en el mercado de los países nórdicos.
+        Adicionalmente, David ejerce como Mentor Asociado en las áreas de ciencia de datos, analítica e ingeniería en inteligencia artificial para la compañía Springboard Corp; empresa estadounidense y partner corporativo de Microsoft,
+        dedicada a la formación de profesionales en estas y otras áreas relacionadas con el sector tecnológico.</p>
+  </div>
+  <a href="https://www.linkedin.com/in/david-lara-arango-422a78ba">Perfil en LinkenIn</a>
+</div>
+-->
+<br>
+{% endblock %}

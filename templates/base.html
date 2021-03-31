@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DTHI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+    <link rel="stylesheet" href="https://use.typekit.net/jqg6smm.css">
+  </head>
+</div>
+  <nav class="navbar navbar-expand-lg bg-dark mynav" role="navigation" id="navbar">
+  <div class="container">
+    <div class="navbar-nav align-items-center">
+  </div>
+  <body background="{% static 'images/backgrounds/textura02.jpg'%}">
+    <div class="container">
+      <h1>Ciencia en tu organización</h1>
+      <br>
+      <div class="container">
+        <div class="">
+        </div>
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" href="{% url 'home' %}" class="btn btn-simple">Inicio</a>
+            <a class="nav-item nav-link" href="{% url 'about'%}" class="btn btn-simple">Acerca de nosotros</a>
+            <a class="nav-item nav-link" href="{% url 'services' %}" class="btn btn-simple">Servicios</a>
+            <a class="nav-item nav-link" href="{% url 'contact' %}" class="btn btn-simple">Contáctanos</a>
+          </div>
+        </div>
+      </div>
+      </nav>
+    <div class="container mycontent">
+      {% block content %}
+
+
+      {% endblock %}
+      <img class= "img-logo" src="{% static 'images/logos/SF_03.png'%}" alt="">
+      <br>
+      <br>
+      </div>
+  </body>
+</html>
