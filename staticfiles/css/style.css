@@ -1,0 +1,86 @@
+.img-logo{
+  width: 80%;
+  height: auto;
+  float: right;
+  margin-right: -350px;
+  margin-top: -250px;
+  /* transform: translate(150px, 150px) */
+}
+
+.profile-pic{
+  width: 300px;
+}
+
+h1{
+  color: white;
+  font-family: covik-sans-mono, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h2{
+  color: white;
+  font-family: covik-sans-mono, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+h3{
+  color: black;
+  font-family: covik-sans-mono, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*
+body{
+  background-repeat no-repeat;
+  align-self: left;
+}
+*/
+
+p{
+  color: black;
+  font-family: covik-sans-mono, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+ul{
+  color: black;
+}
+
+nav .navbar-nav a{
+  color: white;
+  float: left;
+  font-family: covik-sans-mono, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav .navbar-nav{
+  color: white;
+}
+
+
+/*
+.column{
+  float: left;
+  width: 15%;
+  padding: 5px;
+}
+
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+*/
